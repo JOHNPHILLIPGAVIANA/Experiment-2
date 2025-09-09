@@ -1,5 +1,5 @@
 # Experiment-2
-This repository contains two Python programs that were written to practice working with arrays using NumPy. This experiment highlight techniques that are commonly used in data processing, such as normalization, reshaping arrays, and applying conditions to filter values. 
+This repository contains two Python programs that were used to solve specific problems using NumPy. This experiment highlight techniques that are commonly used in data processing, such as normalization, reshaping arrays, and applying conditions to filter values. 
 
 The first pproblem, called the Normalization Problem, generates a random 5x5 array with numbers between 0 and 1. Once the array is created, the program calculates its mean and standard deviation. These two values are then used to normalize the dataset using the formula (𝑋−mean)/standard deviation (X−mean)/standard deviation. Normalization is important because it adjusts the data so that it has a mean of 0 and a standard deviation of 1, which makes it easier to compare values fairly. After normalizing, the program saves the new array into a .npy file and prints the original data, the mean, the standard deviation, and the normalized results. This is the kind of process often seen in data science whenever raw data needs to be prepared before analysis. 
 
